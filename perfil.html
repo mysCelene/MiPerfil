@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="card">
+<h1>Celene Sanchez Centeno</h1>
+<p>Egresada del Instituto Tecnologico Superior de Tepeaca, con experiencia en soporte tecnico y 6 meses
+    en desarrollo web</p>
+
+<h2>Peliculas o Series favoritas</h2>
+<h3>lista ordenada</h3>
+<ol>
+    <li>Malefica</li>
+    <li>Woo una abogada extraordinaria</li>
+    <li>Alquimia de almas</li>
+</ol>
+
+<h2>Hobbies o Pasatiempos</h2>
+<h3>lista desordenada</h3>
+<ul>
+    <li>Videojuegos</li>
+    <li>Ver peliculas</li>
+    <li>Tomar cursos</li>
+</ul>
+    <img src="IMG\GitHub.jpg" alt="Mi foto">
+
+    <h2>Amigos</h2>
+<div class="perfiles">
+    <img src="IMG\Perfil1.jpg" alt="Perfil 1">
+    <img src="IMG\Perfil2.jpg" alt="Perfil 2">
+    <img src="IMG\Perfil3.jpg" alt="Perfil 3">
+    <img src="IMG\Perfil4.jpg" alt="Perfil 4">
+    <img src="IMG\Perfil5.jpg" alt="Perfil 5">
+</div>
+
+
+<p>Visita <a href="https://www.facebook.com" target="_blank">facebook</a></p>
+
+    <h2>Contáctame</h2>
+    <form id="contactForm" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="respuesta" class="mensaje"></p>
+
+</div>
+<script src="js/scripts.js"></script>
+</body>
+</html>
