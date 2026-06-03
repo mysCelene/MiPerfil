@@ -192,6 +192,11 @@ button:hover {
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
+/*Regla especial para que los shorts mantengan su forma vertical del celular*/
+.short-vertical {
+padding-bottom: 177.77%; /*Relacion de aspecto 9:16 (vertical) */
+}
+
 
 
 
